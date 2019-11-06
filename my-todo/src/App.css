@@ -44,6 +44,7 @@ h1 {
 }
 
 .item.completed {
-  text-decoration: line-through wavy black;
-  background-color: darkmagenta;
+  text-decoration: line-through double black;
+  background-color: rgb(55, 45, 192);
+  color: #09d3ac;
 }
