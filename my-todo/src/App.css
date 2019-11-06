@@ -20,3 +20,30 @@
 .App-link {
   color: #09d3ac;
 }
+
+h1 {
+  text-decoration: underline;
+}
+
+.todo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #9affeb;
+
+}
+
+.item.completed {
+  text-decoration: line-through wavy black;
+  background-color: darkmagenta;
+}
